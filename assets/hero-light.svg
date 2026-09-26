@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 440" width="1200" height="440" role="img" aria-label="Jenish Shobhit. Software Engineer, AI Agents and Backend.">
+  <style>
+    .t{font-family:"Helvetica Neue",Helvetica,"Akzidenz-Grotesk",Arial,sans-serif}
+    .h{font-size:104px;font-weight:700;letter-spacing:-4.5px;fill:#000000}
+    .s{font-size:14px;font-weight:500;letter-spacing:2.6px;fill:#6b6b6b}
+    .n{font-size:14px;font-weight:700;letter-spacing:2.6px;fill:#000000}
+    .m{font-size:15px;font-weight:400;letter-spacing:.2px;fill:#6b6b6b}
+    .k{font-size:15px;font-weight:700;letter-spacing:.2px;fill:#000000}
+    .rule{stroke:#000000;stroke-width:1}
+  </style>
+  <rect width="1200" height="440" fill="#ffffff"/>
+
+  <text class="t n" x="60" y="62">JENISH SHOBHIT</text>
+  <text class="t s" x="1140" y="62" text-anchor="end">HYDERABAD, INDIA</text>
+  <line class="rule" x1="60" y1="80" x2="1140" y2="80"/>
+
+  <clipPath id="c1"><rect x="0" y="118" width="1200" height="112"/></clipPath>
+  <clipPath id="c2"><rect x="0" y="228" width="1200" height="112"/></clipPath>
+  <g clip-path="url(#c1)"><text class="t h" x="56" y="212">Software Engineer,<animateTransform attributeName="transform" type="translate" values="0 112;0 112;0 0" keyTimes="0;0.000;1" calcMode="spline" keySplines="0 0 1 1;0.2 0.8 0.2 1" dur="0.90s" begin="0s" fill="freeze"/></text></g>
+  <g clip-path="url(#c2)"><text class="t h" x="56" y="322">AI Agents and Backend<tspan fill="#e2001a">.</tspan><animateTransform attributeName="transform" type="translate" values="0 112;0 112;0 0" keyTimes="0;0.118;1" calcMode="spline" keySplines="0 0 1 1;0.2 0.8 0.2 1" dur="1.02s" begin="0s" fill="freeze"/></text></g>
+
+  <rect x="60" y="352" width="264" height="6" fill="#e2001a"><animate attributeName="width" values="0;0;264" keyTimes="0;0.241;1" calcMode="spline" keySplines="0 0 1 1;0.2 0.8 0.2 1" dur="1.45s" begin="0s" fill="freeze"/></rect>
+
+  <line class="rule" x1="60" y1="386" x2="1140" y2="386"/>
+  <g class="t"><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.462;1" calcMode="spline" keySplines="0 0 1 1;0.2 0.8 0.2 1" dur="1.30s" begin="0s" fill="freeze"/><text class="s" x="60" y="416">01</text><text class="k" x="100" y="416">Agentic Incident Response</text></g>
+  <g class="t"><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.507;1" calcMode="spline" keySplines="0 0 1 1;0.2 0.8 0.2 1" dur="1.42s" begin="0s" fill="freeze"/><text class="s" x="420" y="416">02</text><text class="k" x="460" y="416">LearnTube</text></g>
+  <g class="t"><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.545;1" calcMode="spline" keySplines="0 0 1 1;0.2 0.8 0.2 1" dur="1.54s" begin="0s" fill="freeze"/><text class="s" x="780" y="416">03</text><text class="k" x="820" y="416">Care</text><text class="m" x="870" y="416">in progress</text></g>
+</svg>
