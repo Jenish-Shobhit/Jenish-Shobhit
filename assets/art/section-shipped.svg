@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 140" width="1200" height="140" role="img" aria-label="Section 02: Also shipped">
+  <title>02 Also shipped</title>
+  <defs>
+    <style>
+    .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+    .mono { font-family: ui-monospace, "SF Mono", "JetBrains Mono", Menlo, Consolas, monospace; }
+  </style>
+    <linearGradient id="ring">
+      <stop offset="0" stop-color="#ff6a3d"/>
+      <stop offset="0.5" stop-color="#ff3d7f"/>
+      <stop offset="1" stop-color="#3dd9ff"/>
+    </linearGradient>
+    <linearGradient id="hair" gradientUnits="userSpaceOnUse" x1="40" y1="0" x2="1160" y2="0" spreadMethod="repeat" gradientTransform="translate(0 0)">
+      <stop offset="0" stop-color="#ff6a3d"/>
+      <stop offset="0.25" stop-color="#ff3d7f"/>
+      <stop offset="0.5" stop-color="#8b5cff"/>
+      <stop offset="0.75" stop-color="#3dd9ff"/>
+      <stop offset="1" stop-color="#ff6a3d"/>
+      <animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="-1120 0" dur="8s" repeatCount="indefinite"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="140" rx="20" fill="#07080d"/>
+  <text x="48" y="92" class="mono" font-size="56" fill="#2a2f45" stroke="url(#ring)" stroke-width="1">02</text>
+  <text x="152" y="92" class="sans" font-size="54" font-weight="800" letter-spacing="-1" fill="#f4f1ea">Also shipped</text>
+  <text x="1152" y="92" text-anchor="end" class="mono" font-size="16" letter-spacing="2.88" fill="#8b90a6">SMALLER, FINISHED</text>
+  <line x1="40" y1="118" x2="1160" y2="118" stroke="url(#hair)" stroke-width="2" stroke-linecap="round"/>
+</svg>

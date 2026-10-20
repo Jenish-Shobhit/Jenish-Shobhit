@@ -1,134 +1,80 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
-  <img alt="Jenish Shobhit. Software engineer, AI agents and backend. I build agents that show their evidence, and the backend that keeps them honest." src="assets/hero-light.svg" width="100%">
-</picture>
+<div align="center">
 
-Digital Specialist Engineer at Infosys. Outside the day job I ship small, finished tools: agents with an audit trail, terminal plugins for agent workflows, and native macOS apps. Everything below is public and built; most of it you can run in one click.
+<img src="assets/art/hero.svg" width="100%" alt="Jenish Shobhit. Software engineer, AI agents and backend. I build agents that show their evidence, and the backend that keeps them honest.">
 
-<br>
+<br><br>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/section-selected-work-dark.svg">
-  <img alt="01. Selected work" src="assets/section-selected-work-light.svg" width="100%">
-</picture>
+<img src="assets/art/section-work.svg" width="100%" alt="01. Selected work">
+<br><br>
 
 <table>
 <tr>
-<td width="50%" valign="top">
-
-### [Incident Response Agent](https://github.com/Jenish-Shobhit/incident-response-agent)
-<sub>PYTHON · LANGGRAPH · FASTAPI · CLAUDE / BEDROCK</sub>
-
-Parallel investigators read logs and metrics; every claim must cite evidence or it is dropped. Injected instructions in logs are quarantined, and nothing runs without a human approval gate.
-
-**[Live replay →](https://dpdduyx82d5bu.cloudfront.net)**
-
-</td>
-<td width="50%" valign="top">
-
-### [codeMap](https://github.com/Jenish-Shobhit/codeMap)
-<sub>RUST · RATATUI · TREE-SITTER · HERDR PLUGIN</sub>
-
-Shows a coding agent's worktree as a map, a function as a flowchart, and its last turn as a reviewable diff. Strictly read-only: no refs, no stash, no index writes.
-
-**[v0.1.0 release →](https://github.com/Jenish-Shobhit/codeMap/releases/latest)**
-
-</td>
+<td width="50%"><a href="https://github.com/Jenish-Shobhit/incident-response-agent"><img src="assets/art/card-incident.svg" width="100%" alt="Incident Response Agent: multi-agent incident investigation where every claim cites evidence, with prompt-injection quarantine and a human approval gate. Python, LangGraph, FastAPI, Claude."></a></td>
+<td width="50%"><a href="https://github.com/Jenish-Shobhit/codeMap"><img src="assets/art/card-codemap.svg" width="100%" alt="codeMap: a Herdr plugin that shows a coding agent's worktree as a map and its last turn as a reviewable diff. Rust, ratatui, tree-sitter."></a></td>
 </tr>
 <tr>
-<td width="50%" valign="top">
-
-### [Paneflo](https://github.com/Jenish-Shobhit/paneflo)
-<sub>SWIFT 6 · APPKIT · CORE ANIMATION · macOS</sub>
-
-A per-window ⌘Tab switcher with live previews, snap-to-edge tiling and a stable Overview. Benchmarked: snap-outline latency cut from 15.5&nbsp;ms to 2.2&nbsp;ms mean.
-
-**[Download →](https://jenish-shobhit.github.io/Paneflo/)**
-
-</td>
-<td width="50%" valign="top">
-
-### [Margin](https://github.com/Jenish-Shobhit/margin)
-<sub>SWIFT 6 · APPKIT · H.264 / AAC · macOS</sub>
-
-Screenshots and screen recordings wait on an edge shelf until you drag them where they belong. ⌘V pastes the image straight into Claude Code or Ghostty.
-
-**[Download →](https://jenish-shobhit.github.io/margin/)**
-
-</td>
+<td align="center"><sub><a href="https://dpdduyx82d5bu.cloudfront.net"><b>Live replay</b></a> · <a href="https://github.com/Jenish-Shobhit/incident-response-agent">Source</a></sub></td>
+<td align="center"><sub><a href="https://github.com/Jenish-Shobhit/codeMap/releases/latest"><b>Release</b></a> · <a href="https://github.com/Jenish-Shobhit/codeMap">Source</a></sub></td>
 </tr>
 <tr>
-<td width="50%" valign="top">
-
-### [Visual DSA](https://github.com/Jenish-Shobhit/visual-dsa)
-<sub>HTML · CSS · JAVASCRIPT · NO FRAMEWORK</sub>
-
-38 lessons of data structures and algorithms as running labs you can step backwards, with the code shown in pseudocode, JavaScript and Python. Every algorithm is tested.
-
-**[Open the course →](https://jenish-shobhit.github.io/visual-dsa/)**
-
-</td>
-<td width="50%" valign="top">
-
-### [LearnTube](https://github.com/Jenish-Shobhit/learntube)
-<sub>CHROME EXTENSION · MANIFEST V3 · VANILLA JS</sub>
-
-YouTube for learning: strips Shorts and clutter, and adds a learning library, progress tracking and a subscriptions inbox. Collects no data.
-
-**[Chrome Web Store →](https://chromewebstore.google.com/detail/jejlhdamaodimmhcomnihmepididhbde)**
-
-</td>
+<td><a href="https://github.com/Jenish-Shobhit/paneflo"><img src="assets/art/card-paneflo.svg" width="100%" alt="Paneflo: a native macOS per-window switcher with live previews and snap-to-edge tiling. Swift 6, AppKit."></a></td>
+<td><a href="https://github.com/Jenish-Shobhit/margin"><img src="assets/art/card-margin.svg" width="100%" alt="Margin: a native macOS screenshot and recording app where captures wait on an edge shelf until you drag them away. Swift 6, AppKit."></a></td>
+</tr>
+<tr>
+<td align="center"><sub><a href="https://jenish-shobhit.github.io/Paneflo/"><b>Download</b></a> · <a href="https://github.com/Jenish-Shobhit/paneflo">Source</a></sub></td>
+<td align="center"><sub><a href="https://jenish-shobhit.github.io/margin/"><b>Download</b></a> · <a href="https://github.com/Jenish-Shobhit/margin">Source</a></sub></td>
+</tr>
+<tr>
+<td><a href="https://jenish-shobhit.github.io/visual-dsa/"><img src="assets/art/card-visualdsa.svg" width="100%" alt="Visual DSA: an interactive course of 38 algorithm lessons you can step backwards, in pseudocode, JavaScript and Python."></a></td>
+<td><a href="https://chromewebstore.google.com/detail/jejlhdamaodimmhcomnihmepididhbde"><img src="assets/art/card-learntube.svg" width="100%" alt="LearnTube: a Chrome extension for distraction-free YouTube learning, with a library and progress tracking. Collects no data."></a></td>
+</tr>
+<tr>
+<td align="center"><sub><a href="https://jenish-shobhit.github.io/visual-dsa/"><b>Open the course</b></a> · <a href="https://github.com/Jenish-Shobhit/visual-dsa">Source</a></sub></td>
+<td align="center"><sub><a href="https://chromewebstore.google.com/detail/jejlhdamaodimmhcomnihmepididhbde"><b>Chrome Web Store</b></a> · <a href="https://github.com/Jenish-Shobhit/learntube">Source</a></sub></td>
 </tr>
 </table>
 
 <br>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/section-also-shipped-dark.svg">
-  <img alt="02. Also shipped" src="assets/section-also-shipped-light.svg" width="100%">
-</picture>
+<img src="assets/art/section-shipped.svg" width="100%" alt="02. Also shipped">
+<br><br>
 
-**[paneMorph](https://github.com/Jenish-Shobhit/paneMorph)** &nbsp;<sub>RUST</sub><br>
-Move live terminal panes between Herdr tabs and spaces with two keys, without restarting their processes. Undo included.
+</div>
 
-**[pyspark-three-ways](https://github.com/Jenish-Shobhit/pyspark-three-ways)** &nbsp;<sub>PYSPARK</sub><br>
-The same Spark exercises solved as RDDs, DataFrames and Spark SQL, side by side. **[Notes →](https://jenish-shobhit.github.io/pyspark-three-ways/)**
+| | |
+|:--|:--|
+| **[paneMorph](https://github.com/Jenish-Shobhit/paneMorph)** <br><sub>RUST · HERDR PLUGIN</sub> | Move live terminal panes between tabs and spaces with two keys, without restarting their processes. Undo included. |
+| **[pyspark-three-ways](https://github.com/Jenish-Shobhit/pyspark-three-ways)** <br><sub>PYSPARK</sub> | The same Spark exercises solved as RDDs, DataFrames and Spark SQL, side by side. [Notes →](https://jenish-shobhit.github.io/pyspark-three-ways/) |
+| **[Learning Management System](https://github.com/Jenish-Shobhit/Learning-Management-System)** <br><sub>JAVA · SPRING BOOT</sub> | Spring Boot and MySQL prototype covering courses, enrolments, progress and quizzes. |
+| **[smart-home](https://github.com/Jenish-Shobhit/smart-home)** <br><sub>C++ · ARDUINO</sub> | Arduino controller with keypad access, sensor alarms and a servo-driven door and window. |
 
-**[Learning Management System](https://github.com/Jenish-Shobhit/Learning-Management-System)** &nbsp;<sub>JAVA · SPRING BOOT</sub><br>
-Spring Boot and MySQL prototype covering courses, enrolments, progress and quizzes.
-
-**[smart-home](https://github.com/Jenish-Shobhit/smart-home)** &nbsp;<sub>C++ · ARDUINO</sub><br>
-Arduino controller with keypad access, sensor alarms and a servo-driven door and window.
+<div align="center">
 
 <br>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/section-toolkit-dark.svg">
-  <img alt="03. Toolkit" src="assets/section-toolkit-light.svg" width="100%">
-</picture>
+<img src="assets/art/section-toolkit.svg" width="100%" alt="03. Toolkit">
+<br><br>
 
-<table>
-<tr><td width="22%"><sub><b>LANGUAGES</b></sub></td><td>Python · Java · Swift · Rust · JavaScript · C++</td></tr>
-<tr><td><sub><b>AGENTS</b></sub></td><td>LangGraph · Claude API · Amazon Bedrock · MCP · Claude Code plugins</td></tr>
-<tr><td><sub><b>BACKEND</b></sub></td><td>FastAPI · Spring Boot · MySQL · SQLite · Docker · AWS</td></tr>
-<tr><td><sub><b>INTERFACES</b></sub></td><td>AppKit · ratatui · tree-sitter · Chrome extensions · plain web</td></tr>
-<tr><td><sub><b>CERTIFIED</b></sub></td><td><a href="https://www.credly.com/badges/3113b5a8-1f0c-42d1-91b8-78d5d4799aab"><img src="assets/claude-certified-architect.png" width="44" align="left" alt="Anthropic Claude Certified Architect, Foundations badge"></a><b>Anthropic Claude Certified Architect, Foundations</b><br><sub>Verified on Credly · also Infosys Certified Generative AI Professional</sub></td></tr>
-</table>
+<img src="assets/art/toolkit.svg" width="100%" alt="Languages: Python, Java, Swift, Rust, JavaScript, C++. Agents: LangGraph, Claude API, Amazon Bedrock, MCP, Claude Code plugins. Backend: FastAPI, Spring Boot, MySQL, SQLite, Docker, AWS. Interfaces: AppKit, ratatui, tree-sitter, Chrome MV3, plain web.">
 
-<br>
+<br><br>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/section-contact-dark.svg">
-  <img alt="04. Contact" src="assets/section-contact-light.svg" width="100%">
-</picture>
+<a href="https://www.credly.com/badges/3113b5a8-1f0c-42d1-91b8-78d5d4799aab"><img src="assets/claude-certified-architect.png" width="96" alt="Anthropic Claude Certified Architect, Foundations badge"></a>
 
-Open to conversations about agent reliability, backend systems and developer tooling.
-
-**[jenshobhit@gmail.com](mailto:jenshobhit@gmail.com)** &nbsp;·&nbsp; **[LinkedIn](https://www.linkedin.com/in/jenish-shobhit/)** &nbsp;·&nbsp; Hyderabad, India
+**Anthropic Claude Certified Architect, Foundations**<br>
+<sub>Verified on Credly · also Infosys Certified Generative AI Professional</sub>
 
 <br>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/footer-dark.svg">
-  <img alt="Jenish Shobhit, Hyderabad, India" src="assets/footer-light.svg" width="100%">
-</picture>
+<img src="assets/art/section-contact.svg" width="100%" alt="04. Say hello">
+<br><br>
+
+<a href="mailto:jenshobhit@gmail.com"><img src="assets/art/btn-email.svg" width="30%" alt="Email jenshobhit@gmail.com"></a>&nbsp;
+<a href="https://www.linkedin.com/in/jenish-shobhit/"><img src="assets/art/btn-linkedin.svg" width="30%" alt="LinkedIn"></a>&nbsp;
+<a href="https://www.credly.com/badges/3113b5a8-1f0c-42d1-91b8-78d5d4799aab"><img src="assets/art/btn-credly.svg" width="30%" alt="Credly badge"></a>
+
+<br><br>
+
+<img src="assets/art/footer.svg" width="100%" alt="Jenish Shobhit, built with evidence.">
+
+</div>
